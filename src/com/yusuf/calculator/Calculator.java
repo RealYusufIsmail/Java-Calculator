@@ -2,13 +2,14 @@ package com.yusuf.calculator;
 
 import java.util.Scanner;
 
+@SuppressWarnings("all")
 public class Calculator {
 
     public static void main(String[] args) {
 	// write your code here
         int num1 =0;
         int num2 =0;
-        char operator;
+        char math;
         double answer = 0.0;
 
         Scanner scanMath = new Scanner(System.in);
@@ -19,9 +20,9 @@ public class Calculator {
         num2 = scanMath.nextInt();
         System.out.println("What is your mathematical operation");
 
-        operator = scanMath.next().charAt(0);
+        math = scanMath.next().charAt(0);
 
-        switch (operator) {
+        switch (math) {
             case '+': answer = num1 + num2;
                 break;
             case '-': answer = num1 - num2;
@@ -31,6 +32,6 @@ public class Calculator {
             case '/': answer = num1/num2;
                 break;
         }
-        System.out.println(num1+" "+operator+" "+num2+" = "+answer);
+        System.out.println(num1+" "+math+" "+num2+" = "+answer);
     }
 }
