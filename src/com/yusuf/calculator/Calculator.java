@@ -2,7 +2,7 @@ package com.yusuf.calculator;
 
 import java.util.Scanner;
 
-public class Main {
+public class Calculator {
 
     public static void main(String[] args) {
 	// write your code here
