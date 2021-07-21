@@ -1,2 +1,2 @@
 # Java-Calculator
- A Calculator which uses java to run
+ A simple calculator which uses java to run
