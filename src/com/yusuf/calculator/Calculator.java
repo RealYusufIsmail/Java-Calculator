@@ -33,5 +33,7 @@ public class Calculator {
                 break;
         }
         System.out.println(num1+" "+math+" "+num2+" = "+answer);
+        String ownerCredit = "This bot was made by Yusuf Arfan Ismail.";
+        System.out.println(ownerCredit);
     }
 }
